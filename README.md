@@ -42,7 +42,7 @@ read()/write() call for /dev/nullpo with 0 bytes reading/writing will be
 success with return value zero.
 
 ```sh
-$ echo n | tee /dev/nullpo
+$ echo -n | tee /dev/nullpo
 $ echo $?
 0
 ```
